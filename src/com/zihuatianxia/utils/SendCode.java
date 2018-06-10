@@ -16,8 +16,8 @@ public class SendCode {
 	static final String domain = "dysmsapi.aliyuncs.com";
 	
 	// 此处需要替换开发者自己的AK
-	static final String accessKeyId = "LTAIvBibmRCnq7gY" ;
-	static final String accessKeySecret = "jeO9a0N67CCQqOJRruPlfqX1V222v1" ;
+	static final String accessKeyId = "" ;
+	static final String accessKeySecret = "" ;
 	
 	public static SendSmsResponse sendSms(String phone, String code) throws ClientException {
 		
